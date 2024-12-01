@@ -1,0 +1,154 @@
+table {
+    border: 5px solid black;}
+p{
+    font-size: 110%;
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'the_penchill';
+    font-weight: normal;
+margin-bottom: 20mm;}
+
+
+
+.conttext{
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: rgba(47, 144, 255, 0.466); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.container{
+box-align: left;
+margin-top: 2px;
+margin-right: 200px;
+margin-left: 10px;
+border-radius: 20px;
+overflow: hidden;
+background-color: rgba(4, 0, 255, 0.384); 
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container img{
+object-fit: contain;
+margin-right: 20px;
+margin-left: 10px;
+margin-top: 100px;
+margin-bottom: 10px;
+
+
+}
+h1{
+    font-family: 'Copyduck';
+    font-weight: bold;
+  }
+h2{
+    font-family: 'Copyduck';
+    font-weight: bold;
+  }
+.info{
+    text-align: center;
+    float: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+
+}
+table { border-collapse: collapse; }
+
+table td, table th { 
+    background-color: #ffffff;
+    border: 1px solid black;  }
+
+    @font-face {
+        font-family: 'Copyduck'; 
+        src: url('Copyduck/Copyduck.ttf');
+        font-weight: bold; 
+        font-style: normal; 
+    }
+    @font-face {
+        font-family:'the_penchill' ;
+        src: url('the_penchill/The\ Penchill.otf');
+        font-weight: normal;
+        font-style: normal; 
+    }
+    body {
+        background-image: url('fodo de pantalla.png'); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; 
+        margin: 0; 
+        background-attachment: fixed;
+    }
+    .dropdown { 
+        position: relative; 
+        display: inline-block; 
+    }
+ 
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #1fc2acab;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(243, 18, 18, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+     }
+     button{
+        margin-left: 0px;
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+     }
+     .monito-container {
+        position: relative;
+        width: 100%;
+        height: 100px;
+    }
+
+   
+    .monito {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+         background-image: url('monito.png'); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: moveRightLeft 10s linear infinite;
+    }
+
+    /* Animación para mover el monito */
+    @keyframes moveRightLeft {
+        0% { left: 0; }
+        50% { left: calc(100% - 50px); }
+        100% { left: 0; }
+    }
